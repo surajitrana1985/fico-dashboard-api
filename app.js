@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
-const movies = require('./movies');
+
 const connectMongoDB = require('./config/mongoose.config');
+
+const movies = require('./movies');
+const customerRoutes = require('./routes/customer.routes');
 
 const connection = connectMongoDB().connection;
 
