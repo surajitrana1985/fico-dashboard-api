@@ -1,0 +1,30 @@
+{
+  "name": "fico-dashboard-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajitrana1985/fico-dashboard-api.git"
+  },
+  "author": "surajitrana1985",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajitrana1985/fico-dashboard-api/issues"
+  },
+  "homepage": "https://github.com/surajitrana1985/fico-dashboard-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "faker": "^5.5.3",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.3"
+  },
+  "devDependencies": {
+    "node": "^17.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
