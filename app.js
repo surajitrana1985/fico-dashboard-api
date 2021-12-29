@@ -18,6 +18,7 @@ connection.on('error', (error) => {
 
 app.use(express.json());
 
+app.use('/customers', customerRoutes);
 app.use('/abc', movies);
 
 
